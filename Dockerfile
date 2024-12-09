@@ -1,6 +1,5 @@
 FROM python:3.9-slim
 
-# Setup WorkDir
 WORKDIR /app
 
 # Copy progect files
