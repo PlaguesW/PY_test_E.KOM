@@ -30,5 +30,5 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/ваш-логин/form-detector.git
+git clone https://github.com/PlaguesW/PY_test_E.KOM.git
 cd form-detector
