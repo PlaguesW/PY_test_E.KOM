@@ -1,0 +1,5 @@
+Flask==2.2.3
+Werkzeug==2.2.3
+tinydb==4.7.1
+gunicorn==20.1.0
+requests==2.31.0
