@@ -37,7 +37,7 @@ if not forms_table.all():
     app.logger.info("DB ia initialized with pre-intalled form.")
 
 def is_date(value):
-    for fmt in ("%d.%m.%Y", "%Y-%m-%d"): #* validate form of date
+    for fmt in ("%d.%m.%Y", "%Y-%m-%d", "%d-%m-%Y"): #* validate form of date
         try:
             datetime.strptime(value, fmt)
             return True
